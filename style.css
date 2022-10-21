@@ -1,9 +1,42 @@
-/* test grid */
-.grid-container {
-    width: 500px;
-    height: 500px;
+* {
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    width: 100px;
+}
+.sizing button{
+    margin-left: 20px;
+}
+.sizing{
+    display: flex;
+}
+input{
+    text-align: center;
+    border-radius: 8px;
+    
+}
+.header{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-
-/* test grid */
+}
+/* Board test */
+.board {
+    width: 500px;
+    height: 500px;   
+    border: 1px solid; 
+}

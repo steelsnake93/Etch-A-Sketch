@@ -1,6 +1,6 @@
-const grid = document.querySelector(".grid-container");
-grid.style.gridTemplateColumns - "repeated(16, 1fr)";
-grid.style.gridTemplateRows - "repeated(16, 1fr)";
+const grid = document.querySelector(".board");
+grid.style.gridTemplateColumns - `repeated(16, 1fr)`;
+grid.style.gridTemplateRows - `repeated(16, 1fr)`;
 
 createGrid = () => {
     for (let i = 0; i < 256; i++) {

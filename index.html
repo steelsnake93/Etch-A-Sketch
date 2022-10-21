@@ -5,23 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Etch-A-Sketch</title>
 </head>
 <body>
     <div class="flex-container">
-        <div class="title"><h1>ETCH-A-SKETCH</h1></div>
-        <div class="grid-container"></div>
-        <div class="buttons">
-            <button>Black</button>
-            <button>White</button>
-            <button>Random</button>
-            <button>Reset</button>
+        <div class="header">
+            <div class="title"><h1>ETCH-A-SKETCH</h1></div>
+            <div class="sizing">
+                <input type="text" placeholder="Size of square" value="16">
+                <button type="button" class="btn btn-info">Set Size</button>
+            </div>
         </div>
-        <div>
-            <input type="text" placeholder="Size of square" value="16">
-            <button>Set Size</button>
+        <div class="content">
+            <div class="board"></div>           
+            <div class="buttons">
+                <button type="button" class="btn btn-dark">Black</button>
+                <button type="button" class="btn btn-secondary">Erase</button>
+                <button type="button" class="btn btn-danger">Random</button>
+                <button type="button" class="btn btn-success">Reset</button>
+            </div>
         </div>
     </div>
-    <script src="app.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
