@@ -4,7 +4,7 @@
 
 - [Repo](https://github.com/steelsnake93/etch-a-sketch "<etch-a-sketch> Repo")
 
-- [Live](https://steelsnake93.github.io/etch-a-sketch  "<[Homepage url]> Live View")
+- [Live](https://steelsnake93.github.io/Etch-A-Sketch/  "<[Homepage url]> Live View")
 
  Project: Etch-A-Sketch from The Odin Project
 
